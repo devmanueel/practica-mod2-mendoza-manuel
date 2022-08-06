@@ -7,6 +7,55 @@
     <title>Practica Formularios</title>
 </head>
 <body>
-    
+    <header>
+        
+    </header>
+    <main>
+         <form action="">
+            <fieldset>
+                <legend>Datos del usuario</legend>
+                     <label for="nombre">Nombre</label>
+                     <input type="text" name="nombre" id="nombre"/>
+                     <br>
+                     <p>Esres socio? </p>
+                     <label for="1">Si, soy socio</label>
+                     <input type="radio" name="respuesta" value="Si-soy" id="1">
+                     <label for="2">No soy socio</label>
+                     <input type="radio" name="respuesta" value="No-soy" id="2">
+                     <br>
+                     <label for="correo">Email</label>
+                    <input type="email" name="correo" id="correo">
+                    <br>
+                    <label for="contraseña">Contraseña</label>     
+                    <input type="password" name="contraseña" id="contraseña">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de la reserva</legend>
+                <label for="edad">Edad</label>
+                <select name="edad" id="edad">
+                    <option selected>Mayor de 18</option>
+                    <option >Menor de 18</option>
+                </select>
+                <br>
+                <br>
+                <label for="fecha">Seleccione fecha y hora de reserva:</label>
+                <br>
+                <br>
+                <input type="time" name="tiempo" id="fecha" >
+                <br>
+                <br>
+                <textarea cols="30" rows="10">Comentarios</textarea>
+            </fieldset>
+            <br>
+            <input type="checkbox" name="respuesta2" id="respuesta2">
+            <label for="respuesta2">Acepto las condiciones</label>
+            <br>
+            <br>
+            <input type="submit" value="ENVIAR">
+         </form>
+    </main> 
+    <footer>
+
+    </footer>
 </body>
 </html>
